@@ -1,0 +1,24 @@
+/**
+ * Jenna Patel
+ * Danielle's Problem
+ * 9/24/24
+ */
+
+#include <iostream>
+using namespace std;
+ int main() { 
+     //variables
+     string morning;
+     string after;
+     string breakfast;
+     //asks if you brush or eat breakfast
+     cout << "What do you do first in the morning, brush your teeth, or eat breakfast"<< endl;
+     cin >> morning; //user input
+     if(morning == "teeth") { //if you brush your teeth then it asks shower or get dressed
+         cout << "do you shower after or get dressed after" << endl;
+         cin >> after;
+     } else if (morning == "breakfast") { //if user entered breakfast
+         cout << "Do you eat cereal or eggs? " << endl; //asks cereal or eggs
+         cin >> breakfast;
+     }
+ }
